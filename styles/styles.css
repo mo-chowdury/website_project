@@ -1,0 +1,121 @@
+:root{
+   /*CSS variable*/
+  --main-border/*variable name*/: /*basic set-up of aborder*/2px double whitesmoke;
+  --default-bg-color: black;
+  --content-color: whitesmoke;
+  --defualt-thickness: 5em;
+}
+
+body{
+   display: flexbox;
+   background-color: black;
+}
+
+/*home page*/
+#showcase{
+   background-image: url('../images/main/hero-image.jpg');
+   background-size: cover;
+   background-position: center;
+   height:100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 0 20px;
+}
+
+#showcase h1{
+   font-size: 50px;
+   line-height: 1.2;
+   padding-inline-start: 10px;
+   background: white;
+   color: red;
+}
+#showcase p{
+   font-size: 30px;
+     
+}
+#showcase .button{
+   font-size: 20px;
+   text-decoration: none;
+   color: whitesmoke;
+   border: red 1px solid;
+   padding:10px 20px;
+   border-radius: 10px;
+   background: red;
+}
+#showcase .button:hover{
+   background: blue;
+   color:#fff;
+} 
+
+.container{
+   clear: both;
+}
+
+.content{
+   background-color: antiquewhite;
+   color: whitesmoke;
+}
+
+div p{
+   font-size: 20px;
+}
+.content{
+   display: flexbox;
+   background-color:var(--default-bg-color);
+   font-size: 16px;
+   flex-basis: 15em;
+   flex-grow: 1;
+}
+#partners h2{
+   color: whitesmoke;
+   text-align: center;
+}
+#partners ul li{
+display: inline-flexbox;
+text-align: center;
+background-color: whitesmoke;
+}
+
+
+/*news page*/
+#sponsor-img{
+   width: 20%;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border:solid whitesmoke;
+   padding:10px;
+}
+
+/*line-up page*/
+.line-up{
+   text-align: center;
+}
+#poster1{
+   width: 50%;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border:solid red;
+   padding:10px;  
+}
+
+/*tickets page*/
+.grid-container{
+   background-color: black;
+   color: whitesmoke;
+}
+
+/*footer*/
+footer {
+   border: .5px solid whitesmoke;
+   border-radius: 5px;
+   background:(--default-bg-color);
+}
+footer span{
+   display: inline-block;
+   margin: 1em 0;
+   color: whitesmoke;
+}
+

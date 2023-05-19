@@ -1,0 +1,73 @@
+:root{
+    --border: 2px solid rgb(0,0,0);
+ }
+ 
+.grid-container {
+    display: grid;
+    grid-template-areas: 'headarea headarea basketarea' /*headarea is 2 columns wide*/
+                         'imgarea descriptionarea basketarea' /*The imgarea goes downwards meaning 1 colum wide and 2 rows deep.*/
+                         'imgarea specarea adarea';
+    grid-template-columns: 15% auto 15%; /*Sets the width of each gria area*/
+    grid-template-rows: auto auto 20%; 
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+ }
+ 
+ /*Linking classes to specific grid areas*/
+ .heading{
+    grid-area: headarea;
+    font-size: 100%;
+    text-align: center;
+ }
+ 
+ .product-image{
+    grid-area: imgarea;
+ }
+ 
+ .description{
+    grid-area: descriptionarea;
+ }
+ 
+ .specification{
+    grid-area: specarea;
+ }
+ 
+ .basket{
+    grid-area: basketarea;
+ }
+  
+ .ads{
+    grid-area: adarea;
+ }
+ 
+ /*Other styles*/
+ 
+ .grid-container > div {
+    text-align: left;
+    font-size: 15px;
+    border: var(--border);
+ }
+ 
+ .product-image img{
+    width: 100%;
+ }
+ 
+ .basket img{
+    width: 25%;
+    float: right;
+ }
+ 
+ header{
+    text-align: center;
+    display: inline;
+    color: azure;
+ }
+ 
+ .heading h1{
+    margin:none;
+ }
+ 
+ 
+ 
+ 

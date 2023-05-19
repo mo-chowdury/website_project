@@ -1,0 +1,73 @@
+/*Navigation stylesheet*/
+
+#mainnav{
+    color: red;
+    width:90%;
+    display: inline-flex;   /*What happens when this is removed?*/
+    align-items: center;
+    text-align: center;
+}
+
+#mainnav img{
+
+    width: 20em;
+}
+
+/*Mainnav styling*/
+#mainnav ul li, .socials, .socials li{
+    list-style-type: none;
+    background-color: whitesmoke;  
+    align-items: center;
+    display: inline-flex;
+
+}
+
+#mainnav ul li a{
+    font-size: 30px;
+    padding: .2em;
+    margin: .2em;
+    text-decoration: none;
+}
+
+/*Subnav styling*/
+#subnav a{
+    font-size: 20px;
+    text-decoration: none;
+    width:10%;  
+    display: inline-flex;   /*What happens when this is removed?*/
+    align-items: center;
+    text-align: center;
+}
+
+#subnav a:hover{
+    background-color: aliceblue;
+    color: rgb(11, 12, 16);
+}
+
+
+.socials ul li{
+    display: inline-flex;
+    width: 10%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+.socials li:hover{
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px 2px rgb(65,62,62);
+}
+.social-icons {
+    width: 10%;
+    padding: 1px;
+}
+
+.socials img{
+    width: 15%;
+}
+
+
+
+

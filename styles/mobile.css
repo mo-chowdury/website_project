@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px) { 
+
+    body{
+        background-color: black;
+        text-align: auto;  /*What happens if I'm removed?*/
+        display: auto;
+        flex-direction: auto; /*What does this do?*/    
+    }
+    .mobile-flex-container{
+        flex: auto;
+        display: auto;
+
+    }
+    
+    .mobile-flex-container .content{
+        
+        width: auto;
+    }
+    
+    .mobile-flex-container .content-title{
+        width: auto%;
+    }
+    
+    .mobile-flex-container div{
+        width: auto%;
+    }
+    
+    .mobile-flex-container .content div img{
+        width:auto%;
+    }
+    
+    
+}
